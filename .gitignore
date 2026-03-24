@@ -12,8 +12,6 @@ dist/
 build/
 
 # ---------- ML ----------
-*.h5
-*.pt
 dataset/
 data/
 
