@@ -20,7 +20,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-model = tf.keras.models.load_model("../model.h5")
+model = tf.keras.models.load_model("./model.h5")
 
 def decode_image(base64_str):
     base64_str = base64_str.split(",")[1]
