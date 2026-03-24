@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState, useCallback } from "react";
 
-const BACKEND_URL = "http://127.0.0.1:8000/predict"; // ← change to your endpoint
+const BACKEND_URL = "https://air-writing.onrender.com/predict";
 
 export default function AirDraw() {
   const videoRef = useRef(null);
