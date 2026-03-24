@@ -10,7 +10,7 @@ from fastapi.middleware.cors import CORSMiddleware
 class ImageRequest(BaseModel):
     image: str
 
-app = FastAPI();
+app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
