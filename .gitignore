@@ -1,0 +1,23 @@
+.ipynb_checkpoints
+
+# ---------- Python ----------
+__pycache__/
+*.pyc
+venv/
+.env
+
+# ---------- Node ----------
+node_modules/
+dist/
+build/
+
+# ---------- ML ----------
+dataset/
+data/
+
+# ---------- Logs ----------
+*.log
+
+# ---------- OS ----------
+.DS_Store
+Thumbs.db
